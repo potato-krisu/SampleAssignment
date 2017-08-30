@@ -1,16 +1,19 @@
-
 void setup()
 {
-  size(200,100);
+  size(500,500);
 }
 void draw()
 {
-  fill(255,255,0);
-  ellipse(100,50,80,80);
-  arc(100,50,60,60,PI/8,7*PI/8);
-  fill(0,0,0);
-  ellipse(85,40,10,15);
-  ellipse(115,40,10,15);
+	peel();
+	banana();
 }
-
-
+void peel()
+{
+  fill(255, 225, 53);
+  ellipse(250,250,110,310);
+}
+void banana()
+{
+  fill(253, 253, 150);
+  ellipse(250,250,100,300);
+}
