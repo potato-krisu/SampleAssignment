@@ -1,19 +1,15 @@
 void setup()
 {
   size(500,500);
+  background(218,238,233);
 }
 void draw()
 {
-	peel();
-	banana();
+	body();
 }
-void peel()
+void body()
 {
-  fill(255, 225, 53);
-  ellipse(250,250,110,310);
-}
-void banana()
-{
-  fill(253, 253, 150);
-  ellipse(250,250,100,300);
+	noStroke();
+	fill(169,169,169);
+	bezier(20,400,200,250,250,250,250,400);
 }
